@@ -16,11 +16,17 @@ markdown
 Copy
 Edit
 com.taxi.booking
+
  ├── TaxiBookingApplication.java
+ |
  ├── controller
+ |    |
  │    ├── CustomerController.java
+ |    |
  │    ├── DriverController.java
+ |    |
  │    └── RideController.java
+ |
  ├── dto
  │    └── RideRequestDto.java
  ├── model
