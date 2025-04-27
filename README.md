@@ -109,12 +109,14 @@ Example booking ride request:
 json
 Copy
 Edit
+
 {
   "customerId": 1,
   "pickUp": "A",
   "drop": "B",
   "pickUpTime": 10
 }
+
 ✨ Author
 Developed by Raghavan S
 Connect through LinkedIn - linkedin.com/in/raghavan-s-7778212a1/
