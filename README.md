@@ -17,40 +17,38 @@ Copy
 Edit
 com.taxi.booking
 
- ├── TaxiBookingApplication.java
- |
- ├── controller
- |    |
- │    ├── CustomerController.java
- |    |
- │    ├── DriverController.java
- |    |
- │    └── RideController.java
- |
- ├── dto
- │    └── RideRequestDto.java
- ├── model
- │    ├── Customer.java
- │    ├── Driver.java
- │    └── Ride.java
- ├── repository
- │    ├── CustomerRepository.java
- │    ├── DriverRepository.java
- │    └── RideRepository.java
- └── service
-      └── RideService.java
+TaxiBookingApplication.java
+
+controller
+      CustomerController.java
+      DriverController.java
+      RideController.java
+ dto
+      RideRequestDto.java
+      
+ model
+      Customer.java
+      Driver.java
+      Ride.java
+      
+repository
+      CustomerRepository.java
+      DriverRepository.java
+      RideRepository.java
+      
+service
+      RideService.java
+      
 ⚙️ Technologies Used
+
 Java 21
-
 Spring Boot
-
 Spring Data JPA
-
 MySQL Database
-
 Maven
 
 📄 API Endpoints
+
 Customer APIs:
 
 Method	URL	Description
@@ -91,6 +89,7 @@ Run TaxiBookingApplication.java as Spring Boot App.
 Test the APIs using Postman or Swagger.
 
 🔥 Key Classes Explained
+
 CustomerController.java: Handles customer registration and login.
 
 DriverController.java: Shows driver details.
@@ -100,13 +99,13 @@ RideController.java: Manages booking rides and ride history.
 RideService.java: Business logic for selecting drivers and booking rides.
 
 🧹 Future Enhancements
+
 Authentication with JWT
-
 Admin panel for managing drivers and customers
-
 Real-time ride tracking
 
 📢 Note
+
 Make sure your MySQL database is running and schema is properly set up before starting the application.
 
 📸 Sample
@@ -125,4 +124,5 @@ Edit
 
 ✨ Author
 Developed by Raghavan S
+
 Connect through LinkedIn - linkedin.com/in/raghavan-s-7778212a1/
